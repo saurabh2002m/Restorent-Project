@@ -1,0 +1,67 @@
+#outerbox
+{
+	width: 1345px;
+    overflow: hidden;
+    height: 500px;
+}
+#sliderbox
+{
+	position: relative;
+	z-index: -100;
+	width: 6400px;
+    animation: Saurabh 25s infinite;
+    
+}
+#slider img
+{
+	float: left;
+	width: 1345px;
+}
+@keyframes Saurabh
+{
+  0%
+ {
+ 	left: 0px;
+ }
+  16%
+ {
+ 	left: 0px;
+ }
+  20%
+  {
+  	left: -1280px; 
+  }
+   36%
+   {
+   	left: -1280px;
+   }
+   40%
+   {
+   	left: -2560px;
+   }
+   56%
+   {
+   	left: -2560px;
+   }
+   60%
+   {
+   	left: -3840px;
+   }
+   76%
+   {
+   	left: -3840px;
+   }
+   80%
+   {
+   	left: -5120px;
+   }
+   96%
+   {
+   	left: -5120px;
+   }
+   100%
+   {
+   	left: -6400px;
+   }
+
+}
